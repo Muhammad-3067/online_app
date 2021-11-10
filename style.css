@@ -380,6 +380,10 @@ html {
 
 
 @media (max-width: 767px) {
+    .nav-an {
+        margin: 17px 3px 0px 3px;
+        font-size: 10px;
+    }
     .container-servises {
         flex-direction: column;
         font-size: 10px;
@@ -408,6 +412,9 @@ html {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    .nav-an {
+        margin: 17px 20px 0px 20px;
+    }
     .nav-b li {
         margin: 17px 40px 0px 40px;
     }
@@ -439,6 +446,9 @@ html {
     }
 }
 @media (min-width: 1024px) and (max-width: 1366px) {
+    .nav-an {
+        margin: 17px 20px 0px 20px;
+    }
     .gym-complex img {
         max-height: 80px;
     }
